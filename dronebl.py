@@ -466,7 +466,6 @@ def do_add():
 	delay = endts - startts
 
 	print('Completed in ' + str(delay))
-	return
 
 def do_remove():
 	global args, config
