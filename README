@@ -5,7 +5,7 @@ providing the ability to make use of DroneBL's RPC2 interface to
 add, remove, modify and lookup DNSBL listings on DroneBL.
 
 DEPENDENCIES:
-This script has no dependencies other then Python 3.
+This script has no dependencies other than Python 3.
 
 INSTALLATION:
 There is no need for installation, though if you wish to install
