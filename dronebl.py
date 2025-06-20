@@ -198,6 +198,7 @@ def send_rpcrequest(req, printxmlres=False):
 		xmlobj = et.fromstring(xmlres)
 	except Exception as ex:
 		print('Error retrieving RPC response: ' + str(ex))
+		sys.exit(-1)
 
 	if xmlobj.tag != 'response':
 		print('Error: invalid XML response received...')
