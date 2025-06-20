@@ -1,0 +1,5 @@
+TODO:
+
+* Limit actions per request to a reasonable number (100?)
+* Over action limit error? or submit multiple requests?
+* Support for add/remove/modify id/ip lists from a file
