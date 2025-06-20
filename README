@@ -1,6 +1,6 @@
 DroneBL.py:
 
-DroneBL.py is a simple (hopefully) easy to use python script
+DroneBL.py is a (hopefully) simple easy to use python script
 providing the ability to make use of DroneBL's RPC2 interface to
 add, remove, modify and lookup DNSBL listings on DroneBL.
 
@@ -14,4 +14,4 @@ the script somewhere feel free to do so.
 USAGE:
 Using the script is fairly simple, simply run "./dronebl.py -h"
 for a list of sub commands and options. To see the available
-opetions for each sub command simply use "./dronebl.py <command> -h"
+options for each sub command simply use "./dronebl.py <command> -h"
