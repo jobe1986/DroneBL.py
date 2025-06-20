@@ -253,8 +253,6 @@ def show_success(res):
 			info = ' (' + info + ')'
 		print('Success: ' + msg + info)
 
-	return
-
 def show_warnings(res):
 	global args, config
 
@@ -272,8 +270,6 @@ def show_warnings(res):
 		if len(info) > 0:
 			info = ' (' + info + ')'
 		print('WARNING: ' + msg + info)
-
-	return
 
 def show_debuginfo(res):
 	global args, config
@@ -295,8 +291,6 @@ def show_debuginfo(res):
 		if len(info) > 0:
 			info = ' (' + info + ')'
 		print('Debug: ' + msg + info)
-
-	return
 
 def do_help():
 	parser.print_help()
