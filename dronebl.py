@@ -92,9 +92,9 @@ def parse_args(conffile=defconffile):
 
 	parser = argparse.ArgumentParser(add_help=False)
 	parser.add_argument('-h', '-?', '--help', help='Show this help message and exit', action='help')
-	parser.add_argument('-r', '--rpckey', help='Specify an RPC key to use (overrides config/environment)', action='store', dest='rpckey', default=None)
 	parser.add_argument('-c', '--config', help='Specify a configuration file to use', action='store', dest='conffile', default=conffile)
-	parser.add_argument('-s', '--staging', help='Do not modify DroneBL, only stage requests', action='store_true', dest='staging', default=False)
+	parser.add_argument('-r', '--rpckey', help='Specify an RPC key to use (overrides config)', action='store', dest='rpckey', default=None)
+	parser.add_argument('-s', '--staging', help='Do not modify DroneBL, only stage requests (overrides config)', action='store_true', dest='staging', default=False)
 	subparsers = parser.add_subparsers(title='command', help='Available commands', dest='command')
 	subparsers.required = True
 
